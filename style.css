@@ -1,0 +1,45 @@
+body{
+    background: 
+    linear-gradient(to right,#626b9b,#eb5372);
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+    font-size: 6rem;
+    color: rgb(208,214,218);
+}
+
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+p{
+    font-size: 2.5rem;
+    color:rgb(208,214,218)
+
+}
+img{
+    width:250px;
+    height: 250px;
+}
+.btn{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 20px 10px;
+    top: 50%;
+    color: azure;
+    background-color: aquamarine;
+
+}
+.btn:active{
+    background-color: #eb5372;
+    transition: 0.4s;
+}
